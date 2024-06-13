@@ -1,0 +1,36 @@
+body {
+    font-family:monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 300px; /* Adicionado para limitar a área de movimento do botão "Não" */
+    height: 200px; /* Adicionado para limitar a área de movimento do botão "Não" */
+}
+
+button {
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute; /* Modificado para permitir a movimentação */
+}
+
+#yesButton {
+    position: relative; /* Mantém o botão "Sim" na posição padrão */
+    margin: 0 auto; /* Centraliza o botão "Sim" */
+}
+
+
+
